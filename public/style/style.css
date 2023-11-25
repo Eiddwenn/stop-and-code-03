@@ -1,0 +1,57 @@
+.btn-product {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.container-product {
+    height: calc(100vh - 56px);
+}
+
+.gallery {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.gallery::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: -50%;
+    right: 0;
+    height: 0.5em;
+    border-top: 2px solid grey;
+    z-index: -1;
+    width: 150px;
+}
+
+.tag-product {
+    width: 85px;
+    margin-right: 5px;
+    text-transform: capitalize;
+    font-size: 10px;
+}
+
+.err-page {
+    font-size: 300px;
+}
+
+.btn-json {
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #314872;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 5px;
+}
+
+.btn-json i {
+    font-size: 30px;
+}

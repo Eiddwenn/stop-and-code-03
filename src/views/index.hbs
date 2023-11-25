@@ -1,0 +1,16 @@
+<h3 class="my-2">Prodotti</h3>
+<div class="row">
+    {{#each products}}
+    <div class="card col-6 m-2" style="width: 18rem;">
+        <h5 class="card-title my-3">{{title}}</h5>
+        <div class="w-100 ratio ratio-4x3">
+            <img src="{{images.[0]}}" class="img-fluid object-fit-contain mx-auto my-2" alt="{{title}}">
+        </div>
+        <div class="d-flex justify-content-between align-items-center mt-3 py-3">
+            <span>€ {{price}}</span>
+            <a class="btn-product" href="/prodotti/{{id}}">Dettagli</a>
+        </div>
+    </div>
+    {{/each}}
+</div>
+
